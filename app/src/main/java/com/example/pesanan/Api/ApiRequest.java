@@ -54,4 +54,12 @@ public interface ApiRequest {
     @FormUrlEncoded
     @POST("total.php")
     Call<ResponseMenu> getTotalHarga(@Field("id_pelanggan") String id_pelanggan);
+
+    @FormUrlEncoded
+    @POST("getJumlah.php")
+    Call<ResponseDetail> getJumlah(@Field("id_detail") String id_detail);
+
+    @FormUrlEncoded
+    @POST("updateBeli.php")
+    Call<ResponseDetail> updateJumlah(@Field("total_menu") String total_menu,@Field("id_detail") String id_detail);
 }
