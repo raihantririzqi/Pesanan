@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Menu"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/namamenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/Judul2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Menu"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hargamenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/Judul3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Menu Dipesan"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/jumlahmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TextView" />
+
+    <TextView
+        android:id="@+id/Judul4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/totalharga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TextView" />
+</LinearLayout>
